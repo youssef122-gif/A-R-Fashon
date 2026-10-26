@@ -2,6 +2,7 @@
   "name": "fawateer-app",
   "version": "1.0.0",
   "description": "نظام فواتيرك الكرتوني",
+  "author": "Youssef Abdelhamed",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -9,7 +10,7 @@
   },
   "build": {
     "appId": "com.youssefabdelhamed.fawateer",
-    "productName": "فواتيرك الكرتوني",
+    "productName": "Fawateer",
     "copyright": "Youssefabdelhamed",
     "win": {
       "target": [
@@ -24,12 +25,7 @@
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
-      "createStartMenuShortcut": true,
-      "shortcutName": "فواتيرك الكرتوني",
-      "installerIcon": "app/icon.png",
-      "uninstallerIcon": "app/icon.png",
-      "installerHeaderIcon": "app/icon.png",
-      "language": "1025"
+      "createStartMenuShortcut": true
     },
     "directories": {
       "output": "dist"
